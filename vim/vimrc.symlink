@@ -1,0 +1,22 @@
+call pathogen#infect()
+set autoread
+set directory=/tmp//
+set number "line numbers
+syntax on "coloring of source code
+filetype plugin indent on
+set background=dark "theme for colors
+hi MatchParen cterm=bold ctermbg=gray ctermfg=red
+
+set backspace=indent,eol,start
+set softtabstop=2 "how big is a tab when using spaces
+set expandtab "tabs are spaces
+set shiftwidth=2 "indents to 4
+set autoindent
+set nospell 
+let g:elm_format_autosave = 1
+
+autocmd BufNewFile,BufRead *.json set ft=javascript
+autocmd BufNewFile,BufRead *.md,*.markdown set ft=markdown spell
+autocmd BufNewFile,BufRead *.txt set spell
+autocmd BufNewFile,Bufread *.mustache set ft=html
+command T terminal /bin/zsh -l
