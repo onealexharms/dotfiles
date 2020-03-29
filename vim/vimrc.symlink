@@ -1,4 +1,3 @@
-call pathogen#infect()
 set autoread
 set directory=/tmp//
 set number "line numbers
