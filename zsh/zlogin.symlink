@@ -1,5 +1,2 @@
 export PS1=$'%{\e[0;96m%}>>>>> %2d >>>>>%{\e[0m%} '
 export CLICOLOR=1 LSCOLORS=ExgxhxDxfxhxhxhxhxcxcx
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
