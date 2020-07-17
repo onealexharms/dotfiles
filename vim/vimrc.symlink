@@ -17,5 +17,6 @@ let g:elm_format_autosave = 1
 autocmd BufNewFile,BufRead *.json set ft=javascript
 autocmd BufNewFile,BufRead *.md,*.markdown set ft=markdown spell
 autocmd BufNewFile,Bufread *.mustache set ft=html
+autocmd BufNewFile,Bufread *.conf set ft=conf
 autocmd BufNewFile,Bufread *.cpp,*.c set softtabstop=4 shiftwidth=4
 command T terminal /bin/zsh -l
