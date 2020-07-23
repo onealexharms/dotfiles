@@ -4,7 +4,9 @@
 [alias]
   st = status
   sta = status
+  stat = status
   ci = commit
+  cmm = commit
   com = commit
 
 [color]
