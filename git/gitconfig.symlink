@@ -1,22 +1,24 @@
 [user]
-	name = Alex Harms
-	email = onealexharms@gmail.com
+  name = Alex Harms
+  email = onealexharms@gmail.com
 [alias]
-	st = status
-	ci = commit
+  st = status
+  sta = status
+  ci = commit
+  com = commit
 
 [color]
-ui = auto
+  ui = auto
 [color "branch"]
-current = yellow reverse
-local = yellow
-remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 [color "diff"]
-meta = yellow bold
-frag = magenta bold
-old = red bold
-new = green bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 [color "status"]
-added = green
-changed = yellow
-untracked = red
+  added = green
+  changed = yellow
+  untracked = blue
