@@ -10,4 +10,4 @@ Here's the file structure for the repo:
 - something.symlink becomes /usr/local/bin/.something
 - In this example, more-stuff is some kind of config file under ~/.maybe-directory/something/ and it's in our repo. The symlink means it's also where it's supposed to be.
 
-(Execept `dotfiles/bin`. That's supposed to be code I guess? Mine's empty *shrug*) 
+(Except `dotfiles/bin`. That's supposed to be code I guess? Mine's empty *shrug*) 
