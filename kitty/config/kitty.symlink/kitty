@@ -1,3 +1,0 @@
-#!/bin/bash
-
-/Applications/kitty.app/Contents/MacOS/kitty $#
