@@ -1,0 +1,6 @@
+TODO: Make this a script maybe?
+Also, some things are missing because I just thought of this. 
+
+Add option to allow unsigned apps to the security tab
+sudo spctl --disable --label "Unnotarized Developer ID"
+
