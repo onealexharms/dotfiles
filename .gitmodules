@@ -1,0 +1,3 @@
+[submodule "vim/vim.symlink/pack/plugins/start/parinfer-rust"]
+	path = vim/vim.symlink/pack/plugins/start/parinfer-rust
+	url = git@github.com:eraserhd/parinfer-rust.git
