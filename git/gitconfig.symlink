@@ -10,6 +10,7 @@
   ci = commit
   cmm = commit
   com = commit
+  diffc = diff --cached  
 
 [color]
   ui = auto
