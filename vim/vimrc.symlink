@@ -1,5 +1,6 @@
 set autoread
 set directory=/tmp//
+set clipboard=unnamed "use system clipboard
 set number
 syntax on
 filetype plugin indent on
