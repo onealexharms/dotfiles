@@ -1,3 +1,4 @@
+set laststatus=2 "show the status line all the time
 set autoread
 set directory=/tmp//
 set clipboard=unnamed "use system clipboard
@@ -5,7 +6,7 @@ set number
 syntax on
 filetype plugin indent on
 set background=dark
-hi MatchParen cterm=bold ctermbg=gray ctermfg=red
+hi MatchParen cterm=bold ctermbg=gray ctermfg=cyan
 
 set backspace=indent,eol,start
 set softtabstop=2
