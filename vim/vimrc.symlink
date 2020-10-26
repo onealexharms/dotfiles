@@ -5,8 +5,10 @@ set clipboard=unnamed "use system clipboard
 set number
 syntax on
 filetype plugin indent on
+
 set background=dark
-hi MatchParen cterm=bold ctermbg=gray ctermfg=cyan
+hi MatchParen cterm=bold ctermbg=white ctermfg=cyan
+colorscheme radicalgoodspeed
 
 set backspace=indent,eol,start
 set softtabstop=2
