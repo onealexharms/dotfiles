@@ -1,0 +1,15 @@
+local function paste_using_keystrokes()
+  hs.eventtap.keyStrokes(hs.pasteboard.getContents())
+  hs.alert.show("Ha! Pasted, motherfuckers!")
+end
+
+clock=hs.loadSpoon("AClock")
+clock:init()
+
+meh = {"ctrl", "shift", "alt"}
+
+hs.hotkey.bind(meh, "V", paste_using_keystrokes)
+hs.hotkey.bind(meh, "R", hs.reload)
+hs.hotkey.bind(meh, "C", function()
+  clock:toggleShow()
+end)
