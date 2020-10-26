@@ -1,0 +1,11 @@
+#!/bin/bash
+
+function foo {
+  echo "$1"
+  echo 'fin'
+}
+
+foo $1
+
+window=$(kitty +kitten icat --print-window-size)
+echo $window
