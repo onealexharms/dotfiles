@@ -5,6 +5,7 @@ export CLICOLOR=1 LSCOLORS=ExgxhxDxfxhxhxhxhxcxcx
 
 export PATH="$PATH:$HOME/.local/bin" # because Haskell Stack complained
 export PATH="$PATH:$HOME/.bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.cargo/bin" # So cargo installed things work
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
