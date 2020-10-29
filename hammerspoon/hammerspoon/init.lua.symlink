@@ -1,15 +1,17 @@
-local function paste_using_keystrokes()
-  hs.eventtap.keyStrokes(hs.pasteboard.getContents())
-  hs.alert.show("Ha! Pasted, motherfuckers!")
-end
+musicAppMediaFix = hs.loadSpoon("MusicAppMediaFix")
+musicAppMediaFix:start()
 
 clock=hs.loadSpoon("AClock")
-clock:init()
 
-meh = {"ctrl", "shift", "alt"}
+local function paste_using_keystrokes()
+  hs.eventtap.keyStrokes(hs.pasteboard.getContents())
+  hs.alert.show("Ha! Pasted!")
+end
 
-hs.hotkey.bind(meh, "V", paste_using_keystrokes)
-hs.hotkey.bind(meh, "R", hs.reload)
-hs.hotkey.bind(meh, "C", function()
+mod = {"ctrl", "cmd"}
+
+hs.hotkey.bind(mod, "V", paste_using_keystrokes)
+hs.hotkey.bind(mod, "R", hs.reload)
+hs.hotkey.bind(mod, "C", function()
   clock:toggleShow()
 end)
