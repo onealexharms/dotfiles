@@ -8,8 +8,11 @@ filetype plugin indent on
 
 set background=dark
 hi MatchParen cterm=bold ctermbg=white ctermfg=cyan
+hi SpecialKey  guibg=bg  guifg=#ffffff gui=none
+hi NonText     guibg=bg  guifg=#ffffff gui=none
+" NonText highlighting will be used for eol, extends and
+" precedes.  SpecialKey for nbsp, tab and trail.
 colorscheme radicalgoodspeed
-
 set backspace=indent,eol,start
 set softtabstop=2
 set expandtab "tabs are spaces
